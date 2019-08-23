@@ -6,7 +6,7 @@ const Wapper=styled.div`
     background:#234652 url(static/image/snowflake.png);
     background-repeat:no-repeat;
     background-size:cover;
-    animation:animate 25s linear infinite;
+    animation:eidMubarak 25s linear infinite;
     z-index:99;
     .container{
         position:relative;
@@ -96,7 +96,7 @@ const Wapper=styled.div`
             }
         }
     }
-    @keyframes animate{
+    @keyframes eidMubarak{
         0%{
             background-position:0;
         }
@@ -112,7 +112,7 @@ class EidMubarak extends Component {
             <Wapper>
                 <div className="container">
                     <div className="center">
-                        <div class="moon">
+                        <div className="moon">
                             <div className="cloud">
                                 <span></span>
                                 <span></span>

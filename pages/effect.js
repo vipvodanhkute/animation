@@ -10,6 +10,9 @@ import Cloud from '../components/Cloud'
 import Water from '../components/Water';
 import EidMubarak from '../components/EidMubarak';
 import Pencil from '../components/Pencil';
+import GradientBorder from '../components/GradientBorder';
+import TextEffect from '../components/TextEffect';
+import Loading from '../components/Loading';
 
 class effect extends Component {
     render() {
@@ -24,6 +27,9 @@ class effect extends Component {
                 <Water/> 
                 <EidMubarak/>
                 <Pencil/>
+                <GradientBorder/>
+                <TextEffect/>
+                <Loading/>
             </>
         );
     }

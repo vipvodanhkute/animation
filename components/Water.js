@@ -22,10 +22,10 @@ const Wapper = styled.div`
             background-size:cover;
             // background-repeat:repeat-x;
             -webkit-background-clip:text;
-            animation:animate 15s linear infinite;  
+            animation:water 15s linear infinite;  
         }
     }
-    @keyframes animate{
+    @keyframes water{
         0%{
             background-position:left 0px top 150px;
         }
@@ -39,7 +39,7 @@ const Wapper = styled.div`
             background-position:left 2400px top 80px;
         }
     }
-`
+` 
 class Water extends Component {
     render() {
         return (

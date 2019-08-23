@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components'
+import styled from 'styled-components';
 const Wapper=styled.div`
     margin:0;
     padding:0;
@@ -23,7 +23,7 @@ const Wapper=styled.div`
             width:100%;
             height:100%;
             background:#262626;
-            animation:animate 5s linear infinite;
+            animation:pencil 5s linear infinite;
             animation-timing-function:cubic-bezier(.63,.04,0,.87);
         }
         &:after{
@@ -35,14 +35,14 @@ const Wapper=styled.div`
             width:100%;
             height:100%;
             background:#262626;
-            animation:animate 5s linear infinite;
+            animation:pencil 5s linear infinite;
             font-size:50px;
             color:#a9ff08;
             transform:translateX(2px);
             animation-timing-function:cubic-bezier(.63,.04,0,.87);
         }
     }
-    @keyframes animate{
+    @keyframes pencil{
         0%{
             left:0;
         }
