@@ -13,6 +13,10 @@ import Pencil from '../components/Pencil';
 import GradientBorder from '../components/GradientBorder';
 import TextEffect from '../components/TextEffect';
 import Loading from '../components/Loading';
+import Loader from '../components/Loader';
+import ScrollDown from '../components/ScrollDown';
+import TextReveal from '../components/TextReveal';
+import MovingBackground from '../components/MovingBackground';
 
 class effect extends Component {
     render() {
@@ -30,6 +34,10 @@ class effect extends Component {
                 <GradientBorder/>
                 <TextEffect/>
                 <Loading/>
+                <Loader/>
+                <ScrollDown/>
+                <TextReveal/>
+                <MovingBackground/>
             </>
         );
     }
