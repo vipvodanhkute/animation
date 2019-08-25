@@ -17,6 +17,9 @@ import Loader from '../components/Loader';
 import ScrollDown from '../components/ScrollDown';
 import TextReveal from '../components/TextReveal';
 import MovingBackground from '../components/MovingBackground';
+import PreLoader from '../components/PreLoader';
+import ArrowLoading from '../components/ArrowLoading';
+import Pluse from '../components/Pluse';
 
 class effect extends Component {
     render() {
@@ -38,6 +41,9 @@ class effect extends Component {
                 <ScrollDown/>
                 <TextReveal/>
                 <MovingBackground/>
+                <PreLoader/>
+                <ArrowLoading/>
+                <Pluse/>
             </>
         );
     }
